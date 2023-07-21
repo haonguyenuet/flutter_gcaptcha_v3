@@ -4,31 +4,22 @@ version: 1.0.0
 repository: https://github.com/basnetjiten/flutter_gcaptcha_v3
 
 environment:
-  sdk: '>=2.19.6 <3.0.0'
+  sdk: ">=2.19.6 <3.0.0"
   flutter: ">=3.7.12"
 
 dependencies:
   flutter:
     sdk: flutter
-
-
-  #webview
-  webview_flutter_plus: ^0.3.0+2
-
+  webview_flutter: ^4.2.2
   path_provider: ^2.0.15
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.1
-
-  #functional programmings
   dartz: ^0.10.1
-
 
 flutter:
   uses-material-design: true
   assets:
     - packages/flutter_gcaptcha_v3/assets/index.html
-
-
